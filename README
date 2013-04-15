@@ -1,4 +1,4 @@
-The source code is a sample for the configuration of Play 2.1.1 Framework, Scala 2.10 Language, Spring3 for dependency injection and Hibernate 3 as ORM.
+The source code is a sample for the configuration of Play 2.1.1 Framework, Scala 2.10 Language, Spring3 for dependency injection and Hibernate4 as ORM.
  
  I hope this code sample will be really helpful to a lot of us.
 
