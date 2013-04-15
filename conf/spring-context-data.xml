@@ -14,9 +14,9 @@
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="org.postgresql.Driver"/>
-        <property name="url" value="jdbc:postgresql://localhost:5432/springhibernate"/>
-        <property name="username" value="orcid"/>
-        <property name="password" value="orcid"/>
+        <property name="url" value="jdbc:postgresql://localhost:5432/scalaspringhibernate"/>
+        <property name="username" value="test"/>
+        <property name="password" value="test"/>
     </bean>
     
     <bean id = "transactionManager" class = "org.springframework.orm.hibernate4.HibernateTransactionManager">
