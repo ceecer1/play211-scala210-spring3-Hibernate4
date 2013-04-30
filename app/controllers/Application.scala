@@ -33,8 +33,8 @@ class Application extends Controller {
 	    JsObject(Seq(
 	    "id" -> JsNumber(artist.id),
 	    "firstName" -> JsString(artist.name),
-	    "lastName" -> JsNumber(artist.playCount),
-	    "email" -> JsNumber(artist.listeners)
+	    "rollno" -> JsNumber(artist.rollno),
+	    "songNumber" -> JsNumber(artist.songNumber)
 		))
 	  }
 //	 logger.info("The converted *********** " + listToConvert)

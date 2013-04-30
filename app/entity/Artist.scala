@@ -9,15 +9,7 @@ class Artist {
   @BeanProperty
   var name: String = ""
   @BeanProperty
-  var playCount: Long = 0
+  var rollno: Long = 0
   @BeanProperty
-  var listeners: Long = 0
+  var songNumber: Long = 0
 }
-object Artist {
-  def apply(name: String, playCount: Long, listeners: Long) = {
-    val a = new Artist
-    a.name = name
-    a.playCount = playCount
-    a.listeners = listeners
-    a
-} }
